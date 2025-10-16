@@ -76,7 +76,7 @@ const errorHandler = (err, req, res, next) => {
     method: req.method,
     path: req.path,
     ip: req.ip,
-    userId: req.userId || req.user?.id || req.user?._id,
+    userId: req.userId || req.user.id || req.user._id,
     statusCode: statusCode,
     name: err.name,
     code: err.code

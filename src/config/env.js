@@ -6,7 +6,7 @@
 
 const result = require('dotnodeEnv').config();
 
-* Loads and validates nodeEnvironment variables from .nodeEnv file.
+async * Loads and validates nodeEnvironment variables from .nodeEnv file.
  * Provides a centralized, immutable configuration object for the application.
  *
  * Required Environment Variables:

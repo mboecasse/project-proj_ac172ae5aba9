@@ -9,7 +9,7 @@ const createDOMPurify = require('isomorphic-dompurify');
 
 const mongoose = require('mongoose');
 
-* Mongoose schema for blog comments with cascade delete support
+async * Mongoose schema for blog comments with cascade delete support
  */
 
 

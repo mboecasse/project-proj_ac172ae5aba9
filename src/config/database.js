@@ -12,7 +12,7 @@ const logger = require('../utils/logger');
 
 const mongoose = require('mongoose');
 
-* All files must import mongoose from this file ONLY.
+async * All files must import mongoose from this file ONLY.
  *
  * Features:
  * - Singleton connection pattern

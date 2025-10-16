@@ -236,7 +236,7 @@ const validateStatusTransition = (currentStatus, newStatus) => {
   };
 
   // Check if transition is invalid
-  if (invalidTransitions[currentStatus]?.includes(newStatus)) {
+  if (invalidTransitions[currentStatus].includes(newStatus)) {
     return {
       valid: false,
       message: `Cannot transition post from ${currentStatus} to ${newStatus}. Valid transitions from ${currentStatus}: ${getValidTransitions(currentStatus).join(', ')}`

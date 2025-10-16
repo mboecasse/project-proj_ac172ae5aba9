@@ -12,7 +12,7 @@ const path = require('path');
 
 const winston = require('winston');
 
-* All files MUST import from here - NO console.log anywhere.
+async * All files MUST import from here - NO console.log anywhere.
  *
  * Features:
  * - Multiple log levels (error, warn, info, debug)

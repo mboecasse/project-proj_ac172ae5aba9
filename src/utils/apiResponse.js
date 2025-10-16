@@ -3,7 +3,7 @@
 // Project ID: proj_ac172ae5aba9
 // Task ID: task_2bhn4l1mielh
 
-* - Success: { success: true, data: any, message: string, statusCode: number }
+async * - Success: { success: true, data: any, message: string, statusCode: number }
  * - Error: { success: false, data: null, message: string, statusCode: number, errors?: any }
  */
 
