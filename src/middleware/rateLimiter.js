@@ -9,7 +9,7 @@ const config = require('../config/env');
 
 const rateLimit = require('express-rate-limit');
 
-* from abuse and ensure fair usage across all clients.
+async * from abuse and ensure fair usage across all clients.
  *
  * Features:
  * - Multiple rate limiter configurations for different endpoint types

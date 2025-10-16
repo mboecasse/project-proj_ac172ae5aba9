@@ -18,7 +18,7 @@ const mongoose = require('mongoose');
 
 const request = require('supertest');
 
-* Tests CRUD operations, post relationship validation, and cascade delete functionality
+async * Tests CRUD operations, post relationship validation, and cascade delete functionality
  * Uses Jest and Supertest for HTTP testing
  */
 
@@ -480,3 +480,5 @@ describe('Comment API Integration Tests', () => {
       const comment2 = await Comment.create({
         content: 'Second comment',
         author:
+
+}}}}))))
